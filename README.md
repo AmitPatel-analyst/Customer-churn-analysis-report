@@ -7,7 +7,7 @@ The objective of this report is to analyze customer churn rates across different
 The objective of this report is to analyze customer churn rates across different demographics and regions to identify key areas for improvement. By understanding the factors contributing to churn, the company can develop targeted strategies to enhance customer retention and reduce churn rates.    
 
 ## About Dataset:   
-The dataset comprises customer data, encompassing detailed records of visits from **10000 individual customers**.Each entry in the dataset stores unique information regarding the credit score,salary,country,gender,age and churn status.  
+The dataset comprises customer data, encompassing detailed records of visits from **10000 individual customers**. Each entry in the dataset stores unique information regarding the credit score, salary, country, gender, age and churn status.  
 
 # Customer Table Data Dictionary
 
@@ -48,12 +48,12 @@ The dataset comprises customer data, encompassing detailed records of visits fro
 
 ## Data Preparation: 
 ###  1. Column Profiling 
-  - Given meaningful name to all columns
-  - Removed columns which are not need in my analysis
+  - Given meaningful names to all columns
+  - Removed columns that are not needed in my analysis
   - Replaced value from 1 to Holding & from 0 to Unholding to Credit card status column
   - Replaced value from 1 to Active & from 0 to Inactive to Activity status column
   - Replaced value from 1 to churned & from 0 to Not churned to Churn status column
-  - Created meaningful groups (Agegroup,Creditscoregroup,Tenuregroup)
+  - Created meaningful groups (Agegroup, Creditscoregroup,Tenuregroup)
   - Created queries to organise data for analysis and reporting ( Create a Index column to sort order of Groups )
  
 ## Data Model:
@@ -72,7 +72,7 @@ A simple Star Schema format was used to model the data in Power BI. This model c
   This KPI represents the total number of customers in the dataset, which is 10,000. It serves as the base for calculating other important metrics such as churn rate and retention rate.
 
 - **Currently Active Customers**: 
-  This KPI indicates the number of customers who are currently active, totaling 5,151. This metric helps in understanding the active customer base and planning customer retention strategies.
+  This KPI indicates the number of customers who are currently active, totalling 5,151. This metric helps in understanding the active customer base and planning customer retention strategies.
 
 - **Retained Customers**: 
   This KPI represents the number of customers who have been retained, which is 7,963. Retention is a crucial aspect of customer relationship management, highlighting the effectiveness of retention strategies.
@@ -140,7 +140,7 @@ Given the high churn rate among customers in their first two years, improving th
 With Germany exhibiting the highest churn rate, country-specific retention strategies should be developed. These could include localized marketing campaigns, better customer support in the local language, and culturally relevant engagement activities.
 
 ### 4. Re-engagement Strategies for Long-Tenure Customers
-For customers with 9-11 years of tenure, re-engagement strategies such as anniversary rewards, exclusive events, and recognition programs can help in retaining them.
+For customers with 9-11 years of tenure, re-engagement strategies such as anniversary rewards, exclusive events, and recognition programs can help retain them.
 
 ### 5. Data-Driven Personalization
 Utilize the detailed customer data to create personalized experiences. This could involve using predictive analytics to identify at-risk customers and offering them targeted promotions or support to prevent churn.
