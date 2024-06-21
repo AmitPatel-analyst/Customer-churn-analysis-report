@@ -61,7 +61,7 @@ The dataset comprises customer data, encompassing detailed records of visits fro
 
 A simple Star Schema format was used to model the data in Power BI. This model contains a central fact table titled "Customer" in addition to "Agegroup", "Creditscoregroup", "Tenuregroup" as dimensions.
 
-## Dashborad Overview:
+## Dashboard Overview:
 ![image](https://github.com/AmitPatel-analyst/Customer-churn-analysis-report/blob/main/Customer%20churn%20analysis%20report.jpg)
 
 ## Detailed Insights Explanation:         
